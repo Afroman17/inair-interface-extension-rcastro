@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "blockId": "your-dev-block-id",
+    "baseId": "NONE"
+  },
+  "prod": {
+    "blockId": "your-prod-block-id",
+    "baseId": "NONE"
+  }
+}
