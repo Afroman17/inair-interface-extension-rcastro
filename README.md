@@ -63,4 +63,8 @@ pnpm dev           # run against the dev block (scripts/block-config.json)
 pnpm release:dev   # needs AIRTABLE_PAT (block:manage) in .env
 ```
 
-The test base is **Interface Extension Training - Robert** (`appY11ocXhRouWXb2`). It has a Tasks table with Status, Priority, Due date and Notes.
+The dev block (`blk0MeneCLyltjPoQ`) was created in the Builder Hub (https://airtable.com/create/extensions). Block IDs created any other way (for example through the Airtable API) fail on `block release` with `airtableApiBlockNotFound`.
+
+`release:dev` loads `.env` with `. .env`, so it needs a POSIX shell (Git Bash on Windows). `block release` prompts for a release comment.
+
+The test base is **Interface Extension Training - Robert** (`apphSEgMHAG1XuH00`) in the InAir - Playground workspace. It has a Tasks table with Status, Priority, Due date and Notes.
